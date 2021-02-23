@@ -58,9 +58,9 @@ services:
     depends_on: [haproxy]
 
   ###############################################################
-  #                       Our Microservices                     #
+  #                       My HelloWorld App                     #
   ###############################################################
-  svc-greeter:
+  :
     image: spaceuptech/greeter
     deploy:
       resources:
@@ -68,10 +68,4 @@ services:
           cpus: '0.05'
           memory: 512M
 
-  svc-math:
-    image: spaceuptech/basic-service
-    deploy:
-      resources:
-        limits:
-          cpus: '0.05'
-          memory: 512M
+
