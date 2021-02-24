@@ -10,5 +10,7 @@ ENV PATH $PATH:$JAVA_HOME/bin
 
 #Compile our Helloworld
 RUN javac HelloWorld.java
+ENV LISTEN_PORT=9171
+EXPOSE 9171
 
 ENTRYPOINT java HelloWorld
