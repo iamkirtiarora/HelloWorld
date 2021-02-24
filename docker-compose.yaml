@@ -60,7 +60,7 @@ services:
   ###############################################################
   #                       My HelloWorld App                     #
   ###############################################################
-  :
+  
     image: iamkirtiarora/HelloWorld:latest
     deploy:
       resources:
