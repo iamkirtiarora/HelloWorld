@@ -61,7 +61,7 @@ services:
   #                       My HelloWorld App                     #
   ###############################################################
   
-    image: iamkirtiarora/HelloWorld:latest
+    image: hello-world
     deploy:
       resources:
         limits:
