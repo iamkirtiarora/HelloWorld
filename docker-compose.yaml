@@ -61,7 +61,7 @@ services:
   #                       My HelloWorld App                     #
   ###############################################################
   :
-    image: spaceuptech/greeter
+    image: iamkirtiarora/HelloWorld:latest
     deploy:
       resources:
         limits:
